@@ -40,6 +40,13 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -330,6 +337,20 @@ a:hover, a:focus {
   #COMPONENTS
 \*------------------------------------*/
 
+.c-logo {
+  height: 32px;
+}
+
+.c-logo__symbol {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .c-logo {
+    height: 40px;
+  }
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
@@ -488,10 +509,6 @@ a:hover, a:focus {
   }
   .u-5-of-6-bp2 {
     width: 83.3333333333% !important;
-  }
-  html {
-    font-size: 20px;
-    line-height: 1.6;
   }
 }
 
